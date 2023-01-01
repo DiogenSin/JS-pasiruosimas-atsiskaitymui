@@ -4,9 +4,26 @@
   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js" defer></script>
     <title>1 uzduotis</title>
 </head>
 <body>
-  
+  <div id="tempContainer">
+    <h1>Celcijus VS Farenheitas</h1>
+    <form action="">
+      <h2>Įveskite temperatūrą</h2>
+      <p>Pasirinkite norimą temperatūros matą ir įveskite jos didį.</p>
+      <label for="measure">Matas:</label>
+      <select name="matas" id="matas">
+        <option value="celcijus">Celcijus (°C)</option>
+        <option value="farenheitas">Farenheitas (°F)</option>
+      </select>
+      <label for="temperature">Temperatūra</label>
+      <input type="number" step="0.1" name="temperature" id="temperature">
+      <input type="text" name="converted" id="converted" readonly>
+      <button type="submit" id="button">Konvertuoti</button>
+    </form>
+  </div>
 </body>
 </html>
