@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    gap: 25px;
+    padding: 100px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.movieCard {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.movieCard img{
+    width: 320px;
+    height: 250px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.movieInfo {
+    width: 100%;
+    height: auto;
+    background-color: rgba(194, 194, 194, 0.774);
+    padding: 10px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
