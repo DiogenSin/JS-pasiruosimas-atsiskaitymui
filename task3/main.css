@@ -1,0 +1,53 @@
+
+
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 20vh;
+}
+
+
+button {
+    height: 35px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(78, 176, 221);
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 30vh;
+    left: 40vw;
+}
+
+button:hover {
+    background-color: rgb(114, 194, 231);
+}
+
+
+
+#userCard {
+    background-color: rgb(78, 176, 221);
+    border-radius: 15px;
+    width: 300px;
+    height: auto;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    color: white;
+}
+
+#userCard img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.hide {
+    display: none;
+}
